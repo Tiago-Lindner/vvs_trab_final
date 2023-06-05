@@ -20,13 +20,13 @@ import dev.ifrs.model.Paciente;
 @ExtendWith(MockitoExtension.class)
 public class TesteMock {
 
-// 1 - Crie um mock da classe AudioManager
+// 1 - Crie um mock da classe Consulta
 @Mock
 Consulta cons;
 //Paciente pac;
 
 
-// 2 - injete um mock da classe VolumeUtil
+// 2 - injete um mock da classe Paciente
 @InjectMocks
 Paciente pac = new Paciente();
 //Consulta cons = new Consulta();
@@ -35,9 +35,9 @@ Paciente pac = new Paciente();
     @Test
     public void testAudioManagerSetVolume() {
 
-        // 3 - realize uma chamada para o método maximizeVolume do objeto VolumeUtil
+        // 3 - realize uma chamada para o método setPaciente do objeto cons
         cons.setPaciente(pac);
-        // 4 - Verifique se o método setVolume foi chamado uma única vez
+        // 4 - Verifique se o método setPaciente foi chamado uma única vez
         verify(cons, times(1)).setPaciente(pac);
         
     
