@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,8 +24,8 @@ public class TesteUnitPac {
     private static Paciente pac1 = new Paciente("Tiago");
     private static Paciente pac2 = new Paciente("Rodrigo", "0001", "rodrigom@gmail.com", "Rodrigo Machado", "vvs123", "Rua 1");
 
-    @BeforeAll
-    static void init() {
+    @BeforeEach
+     void init() {
         logger.info("init");
         pacLista = new ArrayList<Paciente>();
         pacLista.add(pac1);

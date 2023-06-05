@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.junit.jupiter.api.BeforeAll;
+//import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -23,8 +24,8 @@ public class TesteUnitAdm {
     private static List<Administrador> admLista;
     private static Administrador adm1 = new Administrador("Tiago", "123");
     
-    @BeforeAll
-    static void init() {
+    @BeforeEach
+     void init() {
         logger.info("init");
         admLista = new ArrayList<Administrador>();
         admLista.add(adm1);

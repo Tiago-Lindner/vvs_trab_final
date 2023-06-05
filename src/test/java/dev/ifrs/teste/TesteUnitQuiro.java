@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -27,8 +27,8 @@ private static List<Quiropraxista> quiLista;
     private static Quiropraxista quiro1 = new Quiropraxista("Tiago", "0100", "tiago.f.lindner@gmail.com", "55555");
     private static Quiropraxista quiro2 = new Quiropraxista("Rodrigo", "0001", "rodrigom@gmail.com", "12345");
 
-    @BeforeAll
-    static void init() {
+    @BeforeEach
+     void init() {
         logger.info("init");
         quiLista = new ArrayList<Quiropraxista>();
         quiLista.add(quiro1);
