@@ -1,0 +1,16 @@
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/model/Consulta.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/model/Quiropraxista.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/IncluirPaciente.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/IncluirConsulta.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/view/MyLivenessCheck.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/ConsultaWS.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/IncluirAdm.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/PacienteWS.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/QuiropraxistaWS.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/IncluirQuiro.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/model/Administrador.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/BackendLogin.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/ClasseSimples.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/control/AdmWS.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/view/MyReadinessCheck.java
+/home/pw2/dev/pw2_proFinal_jwt/sistemaQuiro/src/main/java/dev/ifrs/model/Paciente.java
